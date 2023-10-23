@@ -14,7 +14,18 @@ function getRandomElementFromArray(array) {
 
 // Function to generate a random password with letters
 
+function generatePassword() {
+  var characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']; // Define the characters you want to use
+  var passwordLength = 8; // Choose your desired password length
+  var password = "";
 
+  for (var i = 0; i < passwordLength; i++) {
+    var randomCharacter = getRandomElementFromArray(characters);
+    password += randomCharacter;
+  }
+
+  return password:
+}
 
 
 
