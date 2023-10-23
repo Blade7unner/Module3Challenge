@@ -9,7 +9,7 @@ var generateBtn = document.querySelector("#generate");
 
 function getRandomNumber(max) {
   var randomNumber=Math.random() * (max+1);
-  return randomNumber; 
+  return Math.floor(randomNumber); 
 }
 console.log(getRandomNumber(10));
 console.log(getRandomNumber(5));
@@ -23,7 +23,10 @@ console.log(getRandomNumber(3));
 
 
 var letters=['a', 'b', 'c', 'd'];
+var randomPosition=getRandomNumber(letters.lenght-1)
 
+var randomLetter=letters [ randomPosition];
+console.log (randomLetter)
 
 function generatePassword () {
   var password="Test Password!";
