@@ -3,8 +3,13 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
   console.log("Click!")
+
   return "Input Generated Password Here!"
 }
+
+// Define the character set (in this case, lowercase letters)
+var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+
 
 // Write password to the #password input
 function writePassword() {
