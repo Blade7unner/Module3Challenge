@@ -7,6 +7,11 @@ function getRandomNumber(max) {
   return randomNumber; 
 }
 
+function getRandomElementFromArray(array) {
+  var randomPosition = getRandomNumber(array.length);
+  return array[randomPosition];
+}
+
 // Function to generate a random password with letters
 
 
