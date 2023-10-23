@@ -49,7 +49,17 @@ function generatePassword () {
  * a. Create an array with the charactres you want to used
  * b. ask the user what should be the lenght (use prompt)
  * c. create an empty variable that will store the password
- * d. loop form 0 to the legnth you choose and at every step:
+ * d. loop form 0 to the legnth specified by the user and at every step:
+ *    - Get a random element from the array
+ *    - Append the element to the password variable
+ * - Version 3: generatePassword returns a random password with, at least one of two kinds of characters, and a pre-fixed length.
+ * a. Create an array with the first kind of charactres you want to used
+ * b. Create an array with the second kind of charactres you want to used
+ * c. Ask the user what should be the lenght (use prompt)
+ * d. Create an empty variable that will store the password
+ * e. Append one random character from the first type to the password
+ * f. Append one random character from the second type to the password
+ * g. loop form 2 to the legnth specified by the user and at every step:
  *    - Get a random element from the array
  *    - Append the element to the password variable
  */
