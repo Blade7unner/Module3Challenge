@@ -2,7 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 
-function getRandomNumber(max) {
+function generatePassword(max) {
   var randomNumber = Math.floor(Math.random() * max);
   return randomNumber; 
 }
@@ -27,7 +27,6 @@ function generatePassword() {
   return password;
 }
 
-// Function to write the password to the text area
 
 
 
@@ -35,10 +34,6 @@ console.log(getRandomNumber(10));
 console.log(getRandomNumber(5));
 console.log(getRandomNumber(3));
 
-/**
- * 1-Have a list of valid letters
- * 2- Randomly choose one
- */
 
 function getRandomElementFromArray (array) {
   var randomPosition=getRandomNumber(array.length-1)
@@ -51,8 +46,6 @@ console.log (getRandomElementFromArray( ['?','/','$']))
 
 var randomLetter=letters [ randomPosition];
 console.log (randomLetter)
-
-
 
 function generatePassword () {
   var password="Test Password!";
