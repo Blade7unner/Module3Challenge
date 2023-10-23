@@ -1,13 +1,18 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-/**
- */
 
 function getRandomNumber(max) {
-  var randomNumber= Math.random() * (max+1);
-  return Math.floor(randomNumber); 
+  var randomNumber = Math.floor(Math.random() * max);
+  return randomNumber; 
 }
+
+// Function to generate a random password with letters
+
+
+
+
+
 console.log(getRandomNumber(10));
 console.log(getRandomNumber(5));
 console.log(getRandomNumber(3));
