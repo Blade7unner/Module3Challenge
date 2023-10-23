@@ -3,10 +3,11 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
   console.log("Click!")
+  var password="Input Generated Password Here!";
 
-  return "Input Generated Password Here!"
-}
-
+  return password;
+  
+  }
 // character set (in this case, lowercase letters)
 var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
 
