@@ -10,6 +10,12 @@ function generatePassword() {
 // Define the character set (in this case, lowercase letters)
 var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
 
+// Function to generate a random character from the lowercase character set
+function getRandomLowercaseChar() {
+  var randomIndex = Math.floor(Math.random() * lowercaseChars.length);
+  return lowercaseChars[randomIndex];
+}
+
 
 // Write password to the #password input
 function writePassword() {
