@@ -24,8 +24,10 @@ function generatePassword() {
     password += randomCharacter;
   }
 
-  return password:
+  return password;
 }
+
+// Function to write the password to the text area
 
 
 
