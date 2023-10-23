@@ -1,57 +1,8 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-
-function generatePassword(max) {
-  var randomNumber = Math.floor(Math.random() * max);
-  return randomNumber; 
-}
-
-function getRandomElementFromArray(array) {
-  var randomPosition = getRandomNumber(array.length);
-  return array[randomPosition];
-}
-
-// Function to generate a random password with letters
-
 function generatePassword() {
-  var characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']; // Define the characters you want to use
-  var passwordLength = 8; // Choose your desired password length
-  var password = "";
-
-  for (var i = 0; i < passwordLength; i++) {
-    var randomCharacter = getRandomElementFromArray(characters);
-    password += randomCharacter;
-  }
-
-  return password;
-}
-
-
-
-
-console.log(getRandomNumber(10));
-console.log(getRandomNumber(5));
-console.log(getRandomNumber(3));
-
-
-function getRandomElementFromArray (array) {
-  var randomPosition=getRandomNumber(array.length-1)
-  return array [randomPosition];
-}
-var letters=['a', 'b', 'c', 'd'];
-console.log (getRandomElementFromArray(letters));
-console.log (getRandomElementFromArray( [1,2,7,9,10]))
-console.log (getRandomElementFromArray( ['?','/','$']))
-
-var randomLetter=letters [ randomPosition];
-console.log (randomLetter)
-
-function generatePassword () {
-  var password="Test Password!";
-
-return password;
-
+  console.log("Click!")
 }
 
 // Write password to the #password input
