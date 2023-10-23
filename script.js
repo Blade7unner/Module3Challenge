@@ -20,10 +20,14 @@ console.log(getRandomNumber(3));
  * 2- Randomly choose one
  */
 
-
-
+function getRandomElementFromArray (array) {
+  var randomPosition=getRandomNumber(array.length-1)
+  return array [randomPosition];
+}
 var letters=['a', 'b', 'c', 'd'];
-var randomPosition=getRandomNumber(letters.lenght-1)
+console.log (getRandomElementFromArray(letters));
+console.log (getRandomElementFromArray( [1,2,7,9,10]))
+console.log (getRandomElementFromArray( ['?','/','$']))
 
 var randomLetter=letters [ randomPosition];
 console.log (randomLetter)
