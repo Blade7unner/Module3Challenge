@@ -1,6 +1,25 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+/**
+ * 
+ * 
+ * 
+ */
+
+function getRandomNumber(min, max) {
+  var randomNumber=Math.random() * max;
+}
+/**
+ * 1-Have a list of valid letters
+ * 2- Randomly choose one
+ */
+
+
+
+var letters=['a', 'b', 'c', 'd'];
+
+
 function generatePassword () {
   var password="Test Password!";
 /**
