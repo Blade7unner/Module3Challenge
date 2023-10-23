@@ -7,9 +7,14 @@ var generateBtn = document.querySelector("#generate");
  * 
  */
 
-function getRandomNumber(min, max) {
-  var randomNumber=Math.random() * max;
+function getRandomNumber(max) {
+  var randomNumber=Math.random() * (max+1);
+  return randomNumber; 
 }
+console.log(getRandomNumber(10));
+console.log(getRandomNumber(5));
+console.log(getRandomNumber(3));
+
 /**
  * 1-Have a list of valid letters
  * 2- Randomly choose one
