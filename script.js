@@ -19,9 +19,12 @@ function generatePassword() {
     return "Invalid Password";
   }
 
-  // Append one random lowercase character to the password //
+  // random lowercase character to the password //
   password += getRandomCharacter(lowercaseChars);
 
+  // random uppercase character to the password //
+  password += getRandomCharacter(uppercaseChars);
+  
 
   
 
