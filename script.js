@@ -6,6 +6,9 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
   var password = "";
   
+  // Define character sets for lowercase and uppercase letters //
+  var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+  var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   for (var i = 0; i < length; i++) {
     var randomChar = getRandomLowercaseChar();
