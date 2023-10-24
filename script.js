@@ -32,6 +32,8 @@ return lowercaseChars[randomIndex];
 
 }
 
+// Function to write the generated password to the #password input
+
 
 
 
