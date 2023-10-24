@@ -35,11 +35,10 @@ for (var i = 2; i < length; i++) {
 }
 
 // Function to get a random character from a given character set //
-function getRandomLowercaseChar() {
-var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
-var randomIndex = Math.floor(Math.random() * lowercaseChars.length);
-return lowercaseChars[randomIndex];
-
+function getRandomCharacter(characters) {
+  var randomIndex = Math.floor(Math.random() * characters.length);
+  return lowercaseChars[randomIndex];
+  
 }
 
 // Function to write the generated password to the #password input
