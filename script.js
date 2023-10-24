@@ -23,7 +23,14 @@ function generatePassword() {
 
   return password;
 }
+
 // Function to get a random character from the lowercase character set
+function getRandomLowercaseChar() {
+var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+var randomIndex = Math.floor(Math.random() * lowercaseChars.length);
+return lowercaseChars[randomIndex];
+
+}
 
 
 
