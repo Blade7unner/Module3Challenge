@@ -31,16 +31,10 @@ for (var i = 2; i < length; i++) {
   password += randomChar;
 }
   
-
-  for (var i = 0; i < length; i++) {
-    var randomChar = getRandomLowercaseChar();
-    password += randomChar;
-  }
-
   return password;
 }
 
-// Function to get a random character from the lowercase character set
+// Function to get a random character from a given character set //
 function getRandomLowercaseChar() {
 var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
 var randomIndex = Math.floor(Math.random() * lowercaseChars.length);
