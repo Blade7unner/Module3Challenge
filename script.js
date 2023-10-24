@@ -11,6 +11,8 @@ function generatePassword() {
   var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   // Ask the user for the desired password length //
+  var lenght = prompt("Enter the password length (between 8 and 128 characters");
+  
   
 
   for (var i = 0; i < length; i++) {
