@@ -37,7 +37,7 @@ for (var i = 2; i < length; i++) {
 // Function to get a random character from a given character set //
 function getRandomCharacter(characters) {
   var randomIndex = Math.floor(Math.random() * characters.length);
-  return lowercaseChars[randomIndex];
+  return characters[randomIndex];
   
 }
 
