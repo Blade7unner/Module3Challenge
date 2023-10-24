@@ -18,6 +18,9 @@ function generatePassword() {
     alert("Invalid password length. Please enter a number between 8 and 128.");
     return "Invalid Password";
   }
+
+  // Append one random lowercase character to the passwor
+  
   
 
   for (var i = 0; i < length; i++) {
