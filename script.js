@@ -33,11 +33,6 @@ return lowercaseChars[randomIndex];
 }
 
 // Function to write the generated password to the #password input
-
-
-
-
-// Write password to the #password input //
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
