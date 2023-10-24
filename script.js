@@ -2,7 +2,6 @@
 var generateBtn = document.querySelector("#generate");
 
 
-
 // character set (in this case, lowercase letters) //
 var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
 
