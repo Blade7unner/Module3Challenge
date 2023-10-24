@@ -24,7 +24,8 @@ function generatePassword() {
 
   // random uppercase character to the password //
   password += getRandomCharacter(uppercaseChars);
-  
+
+// Remaining characters of the password //
 
   
 
