@@ -10,6 +10,9 @@ function generatePassword() {
   var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+  // Ask the user for the desired password length //
+  
+
   for (var i = 0; i < length; i++) {
     var randomChar = getRandomLowercaseChar();
     password += randomChar;
