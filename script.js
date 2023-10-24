@@ -5,7 +5,7 @@ var generateBtn = document.querySelector("#generate");
 // Function to generate a random password with a fixed length and only lowercase characters //
 function generatePassword() {
   var password = "";
-  var length = 10; // change to desired password length //
+  
 
   for (var i = 0; i < length; i++) {
     var randomChar = getRandomLowercaseChar();
