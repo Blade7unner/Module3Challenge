@@ -14,7 +14,7 @@ function getRandomLowercaseChar() {
 // Function to generate a random password with a fixed length and only lowercase characters //
 function generatePassword() {
   var password = "";
-  var length = 10; // change this to desired password length //
+  var length = 10; // change to desired password length //
 
   for (var i = 0; i < length; i++) {
     var randomChar = getRandomLowercaseChar();
@@ -23,6 +23,8 @@ function generatePassword() {
 
   return password;
 }
+// Function to get a random character from the lowercase character set
+
 
 
 
