@@ -2,15 +2,6 @@
 var generateBtn = document.querySelector("#generate");
 
 
-// character set (in this case, lowercase letters) //
-var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
-
-// Function to generate a random character from the lowercase character set //
-function getRandomLowercaseChar() {
-  var randomIndex = Math.floor(Math.random() * lowercaseChars.length);
-  return lowercaseChars[randomIndex];
-}
-
 // Function to generate a random password with a fixed length and only lowercase characters //
 function generatePassword() {
   var password = "";
